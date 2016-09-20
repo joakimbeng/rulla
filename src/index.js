@@ -15,7 +15,8 @@ module.exports = function ({
 	dest,
 	jsnext = false,
 	main = true,
-	module: mod = false
+	module: mod = false,
+	moduleName
 }) {
 	return rollup({
 		entry,
@@ -35,6 +36,7 @@ module.exports = function ({
 	.then(bundle => bundle.write({
 		dest,
 		format,
+		moduleName,
 		sourceMap
 	}));
 };
