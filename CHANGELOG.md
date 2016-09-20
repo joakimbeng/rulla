@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/joakimbeng/rulla/compare/v0.2.0...v0.3.0) (2016-09-20)
+
+
+### Features
+
+* **options:** add ability to pass moduleName option ([007c6c9](https://github.com/joakimbeng/rulla/commit/007c6c9))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/joakimbeng/rulla/compare/v0.1.1...v0.2.0) (2016-09-20)
 
