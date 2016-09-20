@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/joakimbeng/rulla/compare/v0.1.0...v0.1.1) (2016-09-20)
+
+
+### Bug Fixes
+
+* **pkg:** add readme and bin section ([7403576](https://github.com/joakimbeng/rulla/commit/7403576))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2016-09-20)
 
