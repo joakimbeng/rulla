@@ -1,0 +1,46 @@
+{
+  "name": "rulla",
+  "version": "0.0.0",
+  "description": "An opinionated preconfigured Rollup for easy bundling",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/rulla.git"
+  },
+  "keywords": [
+    "rollup",
+    "bundle",
+    "commonjs"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/rulla/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/rulla#readme",
+  "xo": {
+    "envs": [
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "rollup": "^0.35.10",
+    "rollup-plugin-commonjs": "^4.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
