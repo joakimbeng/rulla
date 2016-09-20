@@ -2,6 +2,9 @@
 const {rollup} = require('rollup');
 const nodeResolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
+const replace = require('rollup-plugin-replace');
+
+const quote = str => `'${str}'`;
 
 module.exports = function ({
 	sourceMap = false,
@@ -23,7 +26,10 @@ module.exports = function ({
 				module: mod,
 				extensions: ['.js', '.json']
 			}),
-			commonjs({include, exclude})
+			commonjs({include, exclude}),
+			replace({
+				'process.env.NODE_ENV': quote(process.env.NODE_ENV || 'development')
+			})
 		]
 	})
 	.then(bundle => bundle.write({

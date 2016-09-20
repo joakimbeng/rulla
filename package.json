@@ -45,6 +45,7 @@
     "meow": "^3.7.0",
     "rollup": "^0.35.10",
     "rollup-plugin-commonjs": "^4.1.0",
-    "rollup-plugin-node-resolve": "^2.0.0"
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1"
   }
 }
