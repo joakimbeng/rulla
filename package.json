@@ -1,6 +1,6 @@
 {
   "name": "rulla",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An opinionated preconfigured Rollup for easy bundling",
   "main": "src/index.js",
   "directories": {
